@@ -1,0 +1,51 @@
+.FF {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  font-size: 1.5em;
+  -webkit-text-stroke: 2px #000;
+  paint-order: stroke fill;
+  background-image: url("../images/O'ndanya\ Hebi.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+  .quote {
+    font-family: "Josefin Sans", sans-serif;
+    font-style: italic;
+  }
+
+  h1 {
+    margin: 0;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    -webkit-text-stroke: 2px black;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  #intro {
+    padding: 2% 4%;
+    display: flex;
+    .left-side {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-right: 5%;
+    }
+    .right-side {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      img {
+        border: 0.25em solid #5c0d0b;
+        border-radius: 15%;
+        height: 15em;
+      }
+    }
+  }
+}
