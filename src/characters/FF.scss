@@ -5,7 +5,7 @@
   -moz-osx-font-smoothing: grayscale;
   color: #fff;
   font-size: 1.5em;
-  -webkit-text-stroke: 2px #000;
+  -webkit-text-stroke: thin #000;
   paint-order: stroke fill;
   background-image: url("../images/ondanya/party.png");
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@
   background-position: center;
 
   .quote {
-    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.2em;
     font-style: italic;
   }
 
@@ -29,6 +29,7 @@
   }
 
   .paragraph {
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 2% 4%;
   }
 
