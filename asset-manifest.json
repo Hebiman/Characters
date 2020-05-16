@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/Characters/static/css/main.523f09c5.chunk.css",
-    "main.js": "/Characters/static/js/main.bb65813b.chunk.js",
-    "main.js.map": "/Characters/static/js/main.bb65813b.chunk.js.map",
+    "main.css": "/Characters/static/css/main.065ae2fa.chunk.css",
+    "main.js": "/Characters/static/js/main.cf95a074.chunk.js",
+    "main.js.map": "/Characters/static/js/main.cf95a074.chunk.js.map",
     "runtime-main.js": "/Characters/static/js/runtime-main.55e26709.js",
     "runtime-main.js.map": "/Characters/static/js/runtime-main.55e26709.js.map",
-    "static/js/2.abea5ec8.chunk.js": "/Characters/static/js/2.abea5ec8.chunk.js",
-    "static/js/2.abea5ec8.chunk.js.map": "/Characters/static/js/2.abea5ec8.chunk.js.map",
+    "static/js/2.72473a62.chunk.js": "/Characters/static/js/2.72473a62.chunk.js",
+    "static/js/2.72473a62.chunk.js.map": "/Characters/static/js/2.72473a62.chunk.js.map",
     "index.html": "/Characters/index.html",
-    "precache-manifest.9a4162b648d910eeb67bc0d1d2f8a323.js": "/Characters/precache-manifest.9a4162b648d910eeb67bc0d1d2f8a323.js",
+    "precache-manifest.edd21298aabee2f883bf47990a337eda.js": "/Characters/precache-manifest.edd21298aabee2f883bf47990a337eda.js",
     "service-worker.js": "/Characters/service-worker.js",
-    "static/css/main.523f09c5.chunk.css.map": "/Characters/static/css/main.523f09c5.chunk.css.map",
-    "static/js/2.abea5ec8.chunk.js.LICENSE.txt": "/Characters/static/js/2.abea5ec8.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Characters/static/media/logo.ee7cd8ed.svg"
+    "static/css/main.065ae2fa.chunk.css.map": "/Characters/static/css/main.065ae2fa.chunk.css.map",
+    "static/js/2.72473a62.chunk.js.LICENSE.txt": "/Characters/static/js/2.72473a62.chunk.js.LICENSE.txt",
+    "static/media/approve.png": "/Characters/static/media/approve.0b4b4c9b.png",
+    "static/media/fullparty.png": "/Characters/static/media/fullparty.23fa2860.png",
+    "static/media/hebireleased.png": "/Characters/static/media/hebireleased.dffefb0a.png",
+    "static/media/FF.scss": "/Characters/static/media/party.ad5be195.png",
+    "static/media/smile.png": "/Characters/static/media/smile.8a309a9a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.55e26709.js",
-    "static/js/2.abea5ec8.chunk.js",
-    "static/css/main.523f09c5.chunk.css",
-    "static/js/main.bb65813b.chunk.js"
+    "static/js/2.72473a62.chunk.js",
+    "static/css/main.065ae2fa.chunk.css",
+    "static/js/main.cf95a074.chunk.js"
   ]
 }
