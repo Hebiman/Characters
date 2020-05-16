@@ -8,7 +8,7 @@ const FF = () => {
     <div className="FF">
       <h1>O’ndanya Hebi</h1>
       <Quote text="Hi I’m O’ndanya Hebi, my name is quite common so just call me Hebi. :3" />
-      <div id="intro">
+      <div id="intro" className="paragraph">
         <div className="left-side">
           <p>
             Hailing from Gridania now residing in Ul’dah at the time of the
@@ -31,6 +31,17 @@ const FF = () => {
         <div className="right-side">
           <img src={Approve} alt="O'ndanya Warior Smile" />
         </div>
+      </div>
+      <Quote text="One and multiple at the same time." />
+      <div className="paragraph">
+        <p>
+          One of ~26 different sisters named by the convention of the
+          Moonkeepers.
+        </p>
+        <p>
+          The Miqo seems to be everywhere at the time of need, living a life of
+          one and multiple at the same time.
+        </p>
       </div>
     </div>
   );

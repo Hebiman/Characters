@@ -28,8 +28,11 @@
     text-align: justify;
   }
 
-  #intro {
+  .paragraph {
     padding: 2% 4%;
+  }
+
+  #intro {
     display: flex;
     .left-side {
       display: flex;
