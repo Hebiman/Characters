@@ -1,6 +1,7 @@
 import React from "react";
+import ReactImageGallery from "react-image-gallery";
 import { Quote } from "../modules";
-import Approve from "../images/Untitled-1.png";
+import { images, Approve } from "../images/ondanya";
 import "./FF.scss";
 
 const FF = () => {
@@ -43,6 +44,7 @@ const FF = () => {
           one and multiple at the same time.
         </p>
       </div>
+      <ReactImageGallery items={images} />
     </div>
   );
 };
