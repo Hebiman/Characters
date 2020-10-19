@@ -11,6 +11,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
 
   .quote {
     font-size: 1.2em;
@@ -33,8 +34,31 @@
     padding: 2% 4%;
   }
 
-  #intro {
+  .galery {
+    padding: 0 50px;
+  }
+
+  .meet-the-sisters {
+    padding: 0 50px;
+  }
+
+  .title {
+    font-family: "Permanent Marker", cursive;
+    -webkit-text-stroke: 2px black;
+  }
+
+  .slick-dots {
+    li button:before {
+      color: #fff;
+    }
+    li.slick-active button:before {
+      color: #fff;
+    }
+  }
+
+  .card {
     display: flex;
+    justify-content: space-between;
     .left-side {
       display: flex;
       flex-direction: column;
@@ -50,6 +74,24 @@
         border-radius: 15%;
         height: 15em;
       }
+    }
+  }
+  .switcher {
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    column-gap: 10px;
+    row-gap: 10px;
+
+    .switcher-button {
+      &:hover {
+        background-color: #f26d7d;
+      }
+      background-color: #5c0d0b;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      margin: 5%;
     }
   }
 }

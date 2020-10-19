@@ -7,7 +7,7 @@ import "./App.scss";
 function App() {
   return (
     <Router hashType="noslash">
-      <nav>
+      <nav style={{ display: "none" }}>
         <ul>
           <li>
             <Link className="button" to="/">
