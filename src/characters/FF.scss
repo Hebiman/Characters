@@ -1,5 +1,6 @@
 .FF {
   margin: 0;
+  padding-bottom: 25px;
   font-family: "Josefin Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7,11 +8,9 @@
   font-size: 1.5em;
   -webkit-text-stroke: thin #000;
   paint-order: stroke fill;
-  background-image: url("../images/ondanya/party.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  background: url("../images/ondanya/party.png") no-repeat center center fixed;
   background-size: cover;
+  overflow: hidden;
 
   .quote {
     font-size: 1.2em;
@@ -47,15 +46,6 @@
     -webkit-text-stroke: 2px black;
   }
 
-  .slick-dots {
-    li button:before {
-      color: #fff;
-    }
-    li.slick-active button:before {
-      color: #fff;
-    }
-  }
-
   .card {
     display: flex;
     justify-content: space-between;
@@ -76,22 +66,29 @@
       }
     }
   }
+
   .switcher {
-    display: grid;
-    grid-template-columns: repeat(12, auto);
-    column-gap: 10px;
-    row-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
     .switcher-button {
       &:hover {
         background-color: #f26d7d;
       }
       background-color: #5c0d0b;
+      border-radius: 10%;
       color: white;
       padding: 16px;
       font-size: 16px;
       border: none;
-      margin: 5%;
+      margin: 1%;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .card {
+      flex-direction: column-reverse;
     }
   }
 }

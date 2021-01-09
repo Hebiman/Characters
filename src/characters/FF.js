@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { Quote, Number, SisterSlider } from "../modules";
-import { images, Approve } from "../images/ondanya";
+import { Approve } from "../images/ondanya";
 import SliderData from "./Miqos";
 import SlickSlider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -71,7 +71,7 @@ const FF = () => {
         ))}
       </div>
       <div className="meet-the-sisters">
-        <SlickSlider className="center" centerMode dots ref={sliderRef}>
+        <SlickSlider className="center" centerMode ref={sliderRef}>
           {SliderData.map((sis) => (
             <SisterSlider
               key={sis.title}
@@ -79,14 +79,6 @@ const FF = () => {
               textParagraphs={sis.textParagraphs}
               image={sis.image}
             />
-          ))}
-        </SlickSlider>
-      </div>
-      <Quote text="Galery" />
-      <div className="galery">
-        <SlickSlider className="center" centerMode variableWidth>
-          {images.map((val, idx) => (
-            <img key={idx} src={val} alt="" />
           ))}
         </SlickSlider>
       </div>
