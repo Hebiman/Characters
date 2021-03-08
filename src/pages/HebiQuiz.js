@@ -649,13 +649,7 @@ const HebiQuiz = () => {
   return (
     <div className="Quiz">
       <div className="quiz-wrap">
-        <div className="quiz-form">
-          <pre style={{ position: "absolute", top: "2%", right: "10%" }}>{`
-          Points: ${points}
-          Step: ${step}
-          `}</pre>
-          {render()}
-        </div>
+        <div className="quiz-form">{render()}</div>
       </div>
     </div>
   );
