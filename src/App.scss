@@ -1,3 +1,13 @@
+html {
+  height: 100vh;
+}
+body {
+  min-height: 100vh;
+}
+#root {
+  min-height: 100vh;
+}
+
 nav {
   background-color: rgb(59, 169, 212);
   padding: 1% 0%;

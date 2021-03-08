@@ -3,6 +3,7 @@ import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import FF from "./characters/FF";
 import Home from "./Home";
 import "./App.scss";
+import { HebiQuiz } from "./pages";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
       <Switch>
         <Route path="/FF14">
           <FF />
+        </Route>
+        <Route path="/HebiQuiz">
+          <HebiQuiz />
         </Route>
         <Route path="/">
           <Home />

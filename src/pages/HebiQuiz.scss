@@ -1,0 +1,68 @@
+.Quiz {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  font-size: 1.5em;
+  -webkit-text-stroke: thin #000;
+  paint-order: stroke fill;
+  background: url("../images/ondanya/party.png") no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+
+  .quiz-wrap {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    .quiz-form {
+      display: flex;
+      min-width: 90%;
+      min-height: 90vh;
+      background-color: #000000cb;
+      align-items: center;
+      justify-content: center;
+
+      .animatedArea {
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+      }
+
+      form {
+        -webkit-text-stroke: initial;
+        paint-order: initial;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+
+        label {
+          font-size: 1.5em;
+          margin-bottom: 5%;
+        }
+
+        input {
+          font-size: 1em;
+          margin-bottom: 5%;
+          border-radius: 15px;
+          text-align: center;
+        }
+
+        button {
+          font-size: 1em;
+          margin-bottom: 5%;
+        }
+      }
+    }
+  }
+}
